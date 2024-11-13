@@ -1,15 +1,14 @@
 {
-  "name": "~2024-ia24-chat",
+  "name": "chatto-server",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node server.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Adrian Victor <adrianvictor@disroot.org>",
   "license": "ISC",
-  "description": "",
+  "description": "A simple ephemeral messaging server",
   "dependencies": {
     "ws": "^8.18.0"
   },

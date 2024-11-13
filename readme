@@ -1,0 +1,13 @@
+# Chatto
+This is a chat server that uses WebSocket for communication, born in a college class. It should be as simple as possible, providing a quick way of communication.
+
+## What Chatto is:
+- A ephemeral messaging server
+
+## What Chato is not:
+- A - in any way - secure messaging server
+- A messaging app on it's own
+- Something you should use as a private messaging solution
+- A server that provides any solution of client-side security (you can uncomment a line to 'disable' HTML injection, but that's all you have server-side), your client will have to handle everything on it's own.
+
+I'm making this server to learn TS and improve my front-end skills, and I'm planning to host a client in my friend's private website, just to have a waterfall of messages where anyone can send something. The base code was made by my teacher (reportedly using Copilot) so I'm planning to refactor it.
