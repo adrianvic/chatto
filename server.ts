@@ -48,7 +48,8 @@ wss.on('connection', (ws) => {
     const broadcastMessage = JSON.stringify({
       timestamp,
       nick: client.nick,
-      message: msg.replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      message: msg
+      // message: msg.replace(/</g, '&lt;').replace(/>/g, '&gt;')
     })
     
     clients.forEach((c) => {
