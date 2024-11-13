@@ -1,0 +1,6 @@
+{
+    "port": 4000,
+    "loginMessage": "Welcome to my Chatto server!",
+    "defaultUsername": "anonymous",
+    "serverNickname": "Server"
+}
